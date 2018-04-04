@@ -19,7 +19,9 @@ include(CheckCXXSourceRuns)
 # Project step II: Set up project name
 # ------------------------------------------------------------------------------------------------------
 set(PROJ_MAIN_NAME rim)
-ADD_DEFINITIONS(-arch x86_64)
+ADD_DEFINITIONS(-arch x86_64
+-std=c++11 # Or -std=c++0x
+)
 
 # Required libraries, flags, and include files for compiling and linking against STEAMLIKE (all targets)
 #set(STEAMLIKE_EXTRA_LIBS "")
