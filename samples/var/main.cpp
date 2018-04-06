@@ -2,6 +2,8 @@
 #include "foo.h"
 #include "jsonFile.h"
 
+const std::string JSON_FILE = "/Users/ntamurejo/Proyectos/Json/jsonmanual.json";
+
 int main()
 {
     std::cout << "Main..."<< std::endl;
@@ -9,7 +11,7 @@ int main()
     foo.test();
     
     jsonFileNamespace::jsonReader fileJSON;
-    fileJSON.readFileJSONFromPath("/Users/ntamurejo/Proyectos/Json/jsonmanual.json");
+    fileJSON.readFileJSONFromPath(JSON_FILE);
 
     
     
