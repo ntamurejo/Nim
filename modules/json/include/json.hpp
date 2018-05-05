@@ -62,20 +62,6 @@ namespace json {
 		} Internal;
 
 	public:
-        /*class Class
-        {
-        public:
-            enum clase{
-                Null,
-                Object,
-                Array,
-                String,
-                Floating,
-                Integral,
-                Boolean
-
-            };
-        };*/
         // Esto en mac no compila bien, en visual estudio si
         // Se ha solucionado siguiente el siguiente hilo:
         //https://stackoverflow.com/questions/8049834/case-expression-not-constant

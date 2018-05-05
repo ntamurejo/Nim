@@ -58,10 +58,15 @@ namespace jsonFileNamespace
         void setNumberLesion(int nNumberLesion);
         int getNumberLesion();
 
-        
+        // Common function to work with json file.
+    
+        // Read path where there's a json file.
 		json::JSON readFileJSONFromPath(std::string path);
 		
+        // Read data from json
 		void readDataFromJson(json::JSON file);
+        
+        // Write json file
 		
 
 		

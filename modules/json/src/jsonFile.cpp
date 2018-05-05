@@ -42,7 +42,6 @@
 		{
 
 		}
-		
 		// Set y get
 		void jsonReader::setEjeMayorLesionValue(float EM){this->m_EjeMayorLesionValue = EM;}
 		float jsonReader::getEjeMayorLesionValue(){return this->m_EjeMayorLesionValue;}
