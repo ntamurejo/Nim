@@ -15,7 +15,8 @@ include(CheckCXXSourceRuns)
 #find_package(glfw3 3.2 REQUIRED)
 #find_package(OpenGL REQUIRED)
 #find_package( Eigen3 REQUIRED )
-
+find_package(ITK REQUIRED )
+include(${ITK_USE_FILE})
 # Project step II: Set up project name
 # ------------------------------------------------------------------------------------------------------
 set(PROJ_MAIN_NAME rim)
